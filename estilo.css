@@ -1,0 +1,221 @@
+html,body{
+    margin: 0;
+}
+header {
+    background-color: rgb(142, 211, 236);
+    color: darkblue;
+    padding-bottom: 1%;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+li {
+   float: left;
+   padding: 10px 10px 10px 10px;
+  
+}
+li:hover {
+   background-color:aqua;
+}
+#titulos:hover {
+   background-color: aqua;
+}
+#ttvideo:hover {
+   background-color: aqua;
+}
+#linkftc:hover {
+   background-color: aqua;
+} 
+#linkftcc:hover {
+   background-color: aqua;
+}
+#colors:hover {
+   background-color: aqua;
+}
+#logo {
+    width: 45px;
+    top: 10px;
+}
+#menu {
+    list-style: none;
+    margin-right: 3%;
+    float: right;
+    
+}
+@media (max-width: 780px) {
+  
+    #menu {
+        visibility: hidden;
+    }
+      #logo {
+    width: 40px;
+   }
+     #ral{
+        padding-right: 100%;
+        width: 100%;
+        float: right;
+        color: white;
+        padding-left: 8%;
+        height: 20%;
+        text-align: end;
+    }
+    .colunas {
+       padding-left: 0.1px;
+       padding-right: 0.1px;
+       text-align: start;
+    }
+}
+@media all and (max-width: 780px) {
+    #menu {
+        visibility: hidden;
+        }
+    .coluna, .colunasvideolink, #colunasvideolink, #colors, .centralizado, .justificado #linkftc, #linkftcc{
+    display: block;
+    width: 80%;
+    padding: 0;
+    margin: 10px auto;
+    float:none;
+    }
+
+}
+@media all and (max-width: 780px) {
+    #menu {
+    visibility: hidden;
+    position: fixed;
+    }
+    #logo {
+        text-align: center;
+    }
+    .coluna, .coluna, .colunasvideolink, #colunasvideolink, #colors, .centralizado, .justificado #linkftc, #linkftcc {
+    display: block;
+    width: 80%;
+    padding: 0;
+    margin: 10px auto;
+    float:none;
+    }
+    #saulj {
+        padding-left: 3%;
+        }
+    #titulosaul {
+        color: ghostwhite;
+    }
+    #jimmy {
+        float: left;
+        background-size: 25px;
+        background-size: cover;
+        width: 70%;
+        float: left;
+        background-position: right center;
+ }
+}
+
+#projeto {
+    background-color:rgb(168, 228, 250);
+    padding-bottom: 2%;
+}
+#imagem_fundo{
+    background: url("sr\ walter\ white.jpg");
+    background-size: cover;
+    height: 120%;
+    width: 100%;
+}
+#titulo{
+    text-align: center;
+    color: black;
+    padding-top: 15%;
+    padding-right: 8%;
+    padding-left: 45%;
+}
+#titulos {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color:darkblue;
+    text-align: center;
+}
+#texto {
+    background-color: rgb(196, 240, 255);
+    text-align: center;
+    color: black;
+    padding: 5px 50px 20px 50px;
+    text-align: justify;
+    padding-bottom: 1%;
+}
+.poema {
+    background-color:  rgb(189, 238, 255);
+    display: flex;
+    column-gap: 5%;
+    text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 1%;
+    width: 86%;
+}
+.corfundo {
+    background-color:  rgb(189, 238, 255);
+    padding-top: 1%;
+}
+#ttvideo {
+    color: darkblue;
+}
+#linkftc {
+    color: darkblue;
+    border: 1px darkblue solid;
+    padding: 10px 10px 10px 10px;
+} 
+#linkftcc {
+    color: darkblue;
+    border: 1px darkblue solid;
+    padding: 10px 10px 10px 10px;
+}
+
+section{
+    float: left;
+}
+.colunasvideolink {
+    background-color: rgb(168, 228, 250);
+    padding: 20px;
+}
+.coluna {
+    float: left;
+    padding:0 5%;
+    width: 40%;
+}
+.justificado {
+    text-align: center;
+}
+.centralizado {
+    text-align: center;
+}
+#colors {
+    color:darkblue;
+    text-align: center;
+}
+#jimmy {
+    background-image: url(jimmy.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130%;
+    width: 100%;
+    float: right;
+  }
+  #saulj {
+      padding-top: 20%;
+      padding-right: 60%;
+      text-align: center;
+      padding-top: 5%;
+  }
+  footer {
+    background-color: rgb(142, 211, 236);
+    float: left;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    color: navy;
+}
+#tts {
+    color: navy; 
+}
+#tts:hover {
+    background-color: aqua;
+}
